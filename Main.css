@@ -1,5 +1,5 @@
 html, body {
-    height: 100%; /* Ensure the body takes the full height */
+    height: 100%; 
     margin: 0;
 }
 
@@ -8,13 +8,13 @@ body {
     background-color: #f9f9f9;
     color: #333;
     display: flex;
-    flex-direction: column; /* Stack children vertically */
+    flex-direction: column; 
 }
 
 .container {
-    flex: 1; /* Allow the container to grow and fill the space */
+    flex: 1; 
     display: flex;
-    flex-direction: column; /* Stack header, main, and footer vertically */
+    flex-direction: column; 
 }
 
 header {
@@ -50,9 +50,9 @@ nav ul li a:hover {
 }
 
 main {
-    display: flex; /* Use flexbox for main content */
-    justify-content: center; /* Center the content */
-    margin: 40px; /* Add margin around the main content */
+    display: flex; 
+    justify-content: center; 
+    margin: 40px; 
 }
 .big{
     display:flex;
@@ -86,6 +86,6 @@ main {
 footer {
     background-color: #ffcccb;
     text-align: center;
-    padding: 20px; /* Increase padding for the footer */
-    margin-top: 40px; /* Add margin to separate from the content above */
+    padding: 20px; 
+    margin-top: 40px; 
 }
